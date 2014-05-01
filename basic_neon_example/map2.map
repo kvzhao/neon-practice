@@ -1,0 +1,498 @@
+Archive member included because of file (symbol)
+
+//usr/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o (__libc_csu_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+neontest_save_buffer
+                    0x40              /tmp/cczWmCkM.o
+data1               0x10              /tmp/cczWmCkM.o
+data2               0x10              /tmp/cczWmCkM.o
+out                 0x10              /tmp/cczWmCkM.o
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .debug_aranges
+                0x00000000       0x18 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .debug_info    0x00000000       0x89 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .debug_abbrev  0x00000000       0x3e /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .debug_line    0x00000000       0x27 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .debug_str     0x00000000      0x158 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 /tmp/cczWmCkM.o
+ .debug_info    0x00000000      0x142 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_abbrev  0x00000000      0x10d //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_loc     0x00000000       0x99 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_aranges
+                0x00000000       0x20 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_ranges  0x00000000       0x28 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_line    0x00000000      0x125 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_str     0x00000000      0x132 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_frame   0x00000000       0x44 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+LOAD /tmp/cczWmCkM.o
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/libgcc.a
+LOAD //lib/libgcc_s.so
+START GROUP
+LOAD //lib/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../libc.so
+START GROUP
+LOAD //lib/libc.so.6
+LOAD //usr/lib/libc_nonshared.a
+LOAD //lib/ld-linux.so.3
+END GROUP
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/libgcc.a
+LOAD //lib/libgcc_s.so
+START GROUP
+LOAD //lib/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+LOAD /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+                0x00008000                PROVIDE (__executable_start, 0x8000)
+                0x00008134                . = (0x8000 + SIZEOF_HEADERS)
+
+.interp         0x00008134       0x13
+ *(.interp)
+ .interp        0x00008134       0x13 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.note.ABI-tag   0x00008148       0x20
+ .note.ABI-tag  0x00008148       0x20 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00008168       0x2c
+ *(.gnu.hash)
+ .gnu.hash      0x00008168       0x2c /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.dynsym         0x00008194       0x50
+ *(.dynsym)
+ .dynsym        0x00008194       0x50 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.dynstr         0x000081e4       0x43
+ *(.dynstr)
+ .dynstr        0x000081e4       0x43 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.gnu.version    0x00008228        0xa
+ *(.gnu.version)
+ .gnu.version   0x00008228        0xa /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.gnu.version_d  0x00008234        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.gnu.version_r  0x00008234       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00008234       0x20 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.rel.dyn        0x00008254        0x8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00008254        0x8 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x0000825c                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x0000825c                PROVIDE (__rel_iplt_end, .)
+                0x0000825c                PROVIDE (__rela_iplt_start, .)
+                0x0000825c                PROVIDE (__rela_iplt_end, .)
+
+.rela.dyn       0x0000825c        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                0x0000825c                PROVIDE (__rel_iplt_start, .)
+                0x0000825c                PROVIDE (__rel_iplt_end, .)
+                0x0000825c                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                0x0000825c                PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x0000825c       0x20
+ *(.rel.plt)
+ .rel.plt       0x0000825c       0x20 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000827c        0xc
+ *(.init)
+ .init          0x0000827c        0x8 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+                0x0000827c                _init
+ .init          0x00008284        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+
+.plt            0x00008288       0x44
+ *(.plt)
+ .plt           0x00008288       0x44 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x0000829c                printf@@GLIBC_2.4
+                0x000082a8                __libc_start_main@@GLIBC_2.4
+                0x000082c0                abort@@GLIBC_2.4
+
+.iplt           0x000082cc        0x0
+ *(.iplt)
+ .iplt          0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+
+.text           0x000082cc      0x330
+ *(.text.unlikely .text.*_unlikely)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000082cc       0x3c /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x000082cc                _start
+ .text          0x00008308       0x24 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+ .text          0x0000832c       0xd4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .text          0x00008400      0x194 /tmp/cczWmCkM.o
+                0x00008400                neontest
+                0x0000844c                main
+ .text          0x00008594       0x68 //usr/lib/libc_nonshared.a(elf-init.oS)
+                0x00008594                __libc_csu_init
+                0x000085f8                __libc_csu_fini
+ .text          0x000085fc        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+ .text          0x000085fc        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x000085fc        0x8
+ *(.fini)
+ .fini          0x000085fc        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+                0x000085fc                _fini
+ .fini          0x00008600        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+                0x00008604                PROVIDE (__etext, .)
+                0x00008604                PROVIDE (_etext, .)
+                0x00008604                PROVIDE (etext, .)
+
+.rodata         0x00008604       0x1c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x00008604        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00008604                _IO_stdin_used
+ .rodata        0x00008608       0x18 /tmp/cczWmCkM.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00008620        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00008620        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00008620                PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00008620        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00008620        0x8 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00008628                PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr   0x00008628        0x0
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+
+.eh_frame       0x00008628        0x4
+ *(.eh_frame)
+ .eh_frame      0x00008628        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000862c                . = (ALIGN (0x8000) - ((0x8000 - .) & 0x7fff))
+                0x0001062c                . = DATA_SEGMENT_ALIGN (0x8000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0001062c        0x0
+                0x0001062c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0001062c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0001062c        0x4
+                0x0001062c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0001062c        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+                0x00010630                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00010630        0x4
+                0x00010630                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x00010630        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+                0x00010634                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00010634        0x4
+ *(.jcr)
+ .jcr           0x00010634        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .jcr           0x00010634        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00010638       0xe8
+ *(.dynamic)
+ .dynamic       0x00010638       0xe8 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00010638                _DYNAMIC
+                0x00010720                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x00010720       0x20
+ *(.got.plt)
+ .got.plt       0x00010720       0x1c /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00010720                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ *(.got)
+ .got           0x0001073c        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ *(.igot)
+
+.data           0x00010740        0x8
+                0x00010740                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00010740        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                0x00010740                data_start
+                0x00010740                __data_start
+ .data          0x00010744        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+ .data          0x00010744        0x4 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+                0x00010744                __dso_handle
+ .data          0x00010748        0x0 /tmp/cczWmCkM.o
+ .data          0x00010748        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x00010748        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+ .data          0x00010748        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+
+.tm_clone_table
+                0x00010748        0x0
+ .tm_clone_table
+                0x00010748        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .tm_clone_table
+                0x00010748        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+
+.data1
+ *(.data1)
+                0x00010748                _edata = .
+                0x00010748                PROVIDE (edata, .)
+                0x00010748                __bss_start = .
+                0x00010748                __bss_start__ = .
+
+.bss            0x00010750       0x80
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00010750        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .bss           0x00010750        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+ .bss           0x00010750        0x1 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .bss           0x00010751        0x0 /tmp/cczWmCkM.o
+ .bss           0x00010751        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x00010751        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+ .bss           0x00010751        0x0 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+ *(COMMON)
+ *fill*         0x00010751        0xf 00
+ COMMON         0x00010760       0x70 /tmp/cczWmCkM.o
+                0x00010760                neontest_save_buffer
+                0x000107a0                data1
+                0x000107b0                data2
+                0x000107c0                out
+                0x000107d0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000107d0                _bss_end__ = .
+                0x000107d0                __bss_end__ = .
+                0x000107d0                . = ALIGN (0x4)
+                0x000107d0                . = ALIGN (0x4)
+                0x000107d0                __end__ = .
+                0x000107d0                _end = .
+                0x000107d0                PROVIDE (end, .)
+                0x000107d0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x77
+ *(.comment)
+ .comment       0x00000000       0x3a /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+                                 0x3b (size before relaxing)
+ .comment       0x0000003a       0x3d /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+                                 0x3e (size before relaxing)
+ .comment       0x00000000       0x3e /tmp/cczWmCkM.o
+ .comment       0x00000000       0x3b //usr/lib/libc_nonshared.a(elf-init.oS)
+ .comment       0x00000000       0x3e /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x37 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crt1.o
+ .ARM.attributes
+                0x00000037       0x27 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crti.o
+ .ARM.attributes
+                0x0000005e       0x37 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtbegin.o
+ .ARM.attributes
+                0x00000095       0x33 /tmp/cczWmCkM.o
+ .ARM.attributes
+                0x000000c8       0x39 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x00000101       0x37 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../arm-angstrom-linux-gnueabi/4.7.3/crtend.o
+ .ARM.attributes
+                0x00000138       0x27 /usr/lib/gcc/arm-angstrom-linux-gnueabi/4.7.3/../../../crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(a.out elf32-littlearm)
